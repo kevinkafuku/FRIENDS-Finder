@@ -3,16 +3,16 @@
   <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <link rel="stylesheet" type="text/css" href="css/survey.css">
+  <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Fjord+One" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
-
+  <link rel="stylesheet" type="text/css" href="css/survey.css">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
   <title>FRIENDS Finder.</title>
   </head>
   <body>
       <img class="card-img" src="http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w1200.h630.jpg" alt="Card image">
       <div class="card-img-overlay">
-        <div class="jumbotron jumbotron-fluid" style="margin-top: 40%;">
+        <div class="jumbotron jumbotron-fluid" style="margin-top: 40%">
           <div class="container">
             <div class="row">
             <div class="col-sm-12">
@@ -20,16 +20,16 @@
             </div>
             </div>
             <form>
-                <h3><strong>About You</strong></h3>
+                <h3 class="about"><strong>About You</strong></h3>
                 <div class="row">
                     <div class="col-sm-6">
-                        <div class="form-group">
+                        <div class="form-group name">
                             <label for="name">Name (Required)</label>
-                            <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name Here" required>
                         </div>
                     </div>
                     <div class="col-sm-6">
-                        <div class="form-group">
+                        <div class="form-group photo">
                             <label for="photo">Photo (Required)</label>
                             <input type="text" class="form-control" id="photo" required>
                         </div>
@@ -91,7 +91,7 @@
                                 <option value="1">My Intelligence.</option>
                                 <option value="2">My Appearance.</option>
                                 <option value="3">My way with the Ladies/Guys.</option>
-                                <option value="4">My sttrong will.</option>
+                                <option value="4">My strong will.</option>
                                 <option value="5">My Morals.</option>
                                 <option value="6">My sense of humor.</option>
                             </select>
@@ -117,7 +117,7 @@
                 <div class="row">
                     <div class="col-sm-12">
                         <div class="form-group">
-                            <label for="q6">You just found out your best friend and your sibling are together. How do you react ?</label>
+                            <label for="q6">6. You just found out your best friend and your sibling are together. How do you react ?</label>
                             <select class="form-control" id="q6">
                                 <option value= "" disabled selected>Select An Option</option>
                                 <option value="1">I'm super excited.</option>

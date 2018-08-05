@@ -1,3 +1,35 @@
 body {
-    background-color: black;
+    background-color: white;
+}
+
+.about {
+    color: darkslateblue;
+}
+
+.display-3 {
+    text-align: center;
+    color: white;
+    font-family: 'Covered By Your Grace', cursive;
+}
+.jumbotron {
+    color: orangered;
+    background-color: wheat;
+    font-family: 'Fjord One', serif;
+}
+
+.name {
+    color: darkslateblue;
+}
+
+.photo {
+    color: darkslateblue;
+}
+
+option {
+    color: red;
+}
+
+.btn {
+    background-color: red;
+    font-family: 'Covered By Your Grace', cursive;
 }
