@@ -1,0 +1,33 @@
+.jumbotron {
+    background-color: lightskyblue;
+    border: 4px;
+}
+
+.btn {
+    background-color: red;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.lead {
+    font-weight: bolder;
+    color: navy;
+}
+
+.link {
+    font-family: 'Covered By Your Grace', cursive;
+    color: red;
+}
+
+.display-3 {
+    color: white;
+    font-family: 'Covered By Your Grace', cursive;
+}
+
+.lead {
+    font-size: 18px;
+}
+
+body {
+    background-color: rgb(240, 154, 26);
+    font-family: 'Fjord One', serif;
+}

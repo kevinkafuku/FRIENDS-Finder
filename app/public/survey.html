@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/survey.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
+
+  <title>FRIENDS Finder.</title>
+  </head>
+  <body>
+      <img class="card-img" src="http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w1200.h630.jpg" alt="Card image">
+      <div class="card-img-overlay">
+        <div class="jumbotron jumbotron-fluid" style="margin-top: 40%;">
+          <div class="container">
+            <div class="row">
+            <div class="col-sm-12">
+            <h1 class="display-3">F • R • I • E • N • D • S</h1>
+            </div>
+            </div>
+            <form>
+                <h3><strong>About You</strong></h3>
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="name">Name (Required)</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter Name" required>
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="form-group">
+                            <label for="photo">Photo (Required)</label>
+                            <input type="text" class="form-control" id="photo" required>
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <h3><strong>Survey Says..</strong></h3>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q1">1. Which of the following describes your sibling situation ?</label>
+                            <select class="form-control" id="q1">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">I have a couple siblings I don't get along with.</option>
+                                <option value="2">I have multiple siblings and I love them all.</option>
+                                <option value="3">I have one sibling that drives me CRAZY but is one of my best friends.</option>
+                                <option value="4">I have one sibling that is my greatest rival.</option>
+                                <option value="5">I am an only child.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q2">2. Which of the following sounds the most appealing to you ?</label>
+                            <select class="form-control" id="q2">
+                                <option value= "" disabled selected>Select An Option</option>                          
+                                <option value="1">Cooking or Cleaning.</option>
+                                <option value="2">Visiting a Museum.</option>
+                                <option value="3">Shopping.</option>
+                                <option value="4">Relaxing on the couch and watching TV.</option>
+                                <option value="5">Eating.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q3">3. Which of the following best describes your dreams for the future ?</label>
+                            <select class="form-control" id="q3">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">Making it BIG.</option>
+                                <option value="2">Ending up with my true love.</option>
+                                <option value="3">To be happy and care-free.</option>
+                                <option value="4">I don't know what I want with my life.</option>
+                                <option value="5">Marrying and having a family.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q4">4. Which of the following describes your greatest attribute ?</label>
+                            <select class="form-control" id="q4">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">My Intelligence.</option>
+                                <option value="2">My Appearance.</option>
+                                <option value="3">My way with the Ladies/Guys.</option>
+                                <option value="4">My sttrong will.</option>
+                                <option value="5">My Morals.</option>
+                                <option value="6">My sense of humor.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q5">5. Which of the following is your greatest pet peave ?</label>
+                            <select class="form-control" id="q5">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">Quitters.</option>
+                                <option value="2">Poeple stealing my food.</option>
+                                <option value="3">People with silly beliefs.</option>
+                                <option value="4">Close-Minded People.</option>
+                                <option value="5">Losing.</option>
+                                <option value="6">Messiness.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q6">You just found out your best friend and your sibling are together. How do you react ?</label>
+                            <select class="form-control" id="q6">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">I'm super excited.</option>
+                                <option value="2">I don't have a sibling.</option>
+                                <option value="3">I give my friend the talk.</option>
+                                <option value="4">I'm protective of my sibling.</option>
+                                <option value="5">EW ! Why would they want to date my sibling ?</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q7">7. What would you consider to be your worst attribute ?</label>
+                            <select class="form-control" id="q7">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">I'm a total pushover.</option>
+                                <option value="2">I'm socially awkward.</option>
+                                <option value="3">I'm obsessive.</option>
+                                <option value="4">I'm too submissive.</option>
+                                <option value="5">I'm too sensitive.</option>
+                                <option value="6">I'm flaky.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q8">8. Which of the following best describes your fashion sense ?</label>
+                            <select class="form-control" id="q8">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">Smart.</option>
+                                <option value="2">Comfortable.</option>
+                                <option value="3">Casual but Stylish.</option>
+                                <option value="4">Quirky and Colorful.</option>
+                                <option value="5">Fashionable.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q9">9. Which of the following do you value the most ?</label>
+                            <select class="form-control" id="q9">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">Your Work.</option>
+                                <option value="2">Your Relationship.</option>
+                                <option value="3">Your Family.</option>
+                                <option value="4">Your Friends.</option>
+                                <option value="5">Your Morals.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q10">10. You're in a Team Project. Which role would you be most likely to take ?</label>
+                            <select class="form-control" id="q10">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">Information Seeker.</option>
+                                <option value="2">Sitting Back.</option>
+                                <option value="3">Dealing with numbers.</option>
+                                <option value="4">Team Leader.</option>
+                                <option value="5">Giving Ideas/Creativity</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="form-group">
+                            <label for="q11">11. What attracts you the most in a significant other ?</label>
+                            <select class="form-control" id="q10">
+                                <option value= "" disabled selected>Select An Option</option>
+                                <option value="1">Their Intelligence.</option>
+                                <option value="2">Their Appearance.</option>
+                                <option value="3">Chemistry.</option>
+                                <option value="4">Their Loyalty.</option>
+                                <option value="5">Their Character.</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+                <button id="submitButton" type="submit" name="action" class="btn btn-primary" data-toggle="modal">Send</button>        
+            </form>
+            </div>          
+        </div>
+    <div class="modal fade" id="modal1">
+    <div class="modal-dialog">
+        <div class="modal-content">
+        <div class="modal-header">
+            <h4 class="lead">Your Compatable<a class="link" href="https://www.imdb.com/title/tt0108778/">F • R • I • E • N • D • S</a></strong></h4>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="modal-body">
+            <div class="divider"></div>
+            <h5 id="userName"></h5>
+            <img id="userPic" class="img-thumbnail" width="200px" src="">
+        </div>
+        </div>
+    </div>
+    </div>
+
+    <script type="text/javascript">
+       $(document).ready(function() { 
+       $("#submitButton").on("click", function(event) {
+            event.preventDefault();
+            var userData = {
+                name: $("#name").val().trim(),
+                pic: $("#photo").val().trim(),
+                scores: [
+                    $("#q1").val().trim(),
+                    $("#q2").val().trim(),
+                    $("#q3").val().trim(),
+                    $("#q4").val().trim(),
+                    $("#q5").val().trim(),
+                    $("#q6").val().trim(),
+                    $("#q7").val().trim(),
+                    $("#q8").val().trim(),
+                    $("#q9").val().trim(),
+                    $("#q10").val().trim(),
+                    $("#q11").val().trim(),
+                ]
+            };
+       
+        $.post("/api/friends", userData, function (data) {
+            $("#userName").text(data.matchName);
+            $("#userPic").attr("src", data.matchPic); 
+        });
+       
+        $(".modal").modal();
+        $("#name").val("");
+        $("#photo").val("");
+        $("#q1").val("");
+        $("#q2").val("");
+        $("#q3").val("");
+        $("#q4").val("");
+        $("#q5").val("");
+        $("#q6").val("");
+        $("#q7").val("");
+        $("#q8").val("");
+        $("#q9").val("");
+        $("#q10").val("");
+        $("#q11").val("");
+    });
+});
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/js/bootstrap.min.js" integrity="sha384-o+RDsa0aLu++PJvFqy8fFScvbHFLtbvScb8AjopnFD+iEQ7wo/CG0xlczd+2O/em" crossorigin="anonymous"></script>
+  </body>
+</html>
