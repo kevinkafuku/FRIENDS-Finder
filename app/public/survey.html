@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="EN">
   <head>
-  <meta charset="utf-8">
+  <meta charset="UTF-8">
+  <link rel="shortcut icon" href="images/friends.ico" type="image/x-icon">
+  <title>FRIENDS Finder.</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link href="https://fonts.googleapis.com/css?family=Covered+By+Your+Grace|Fjord+One" rel="stylesheet">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="css/survey.css">
   <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-  <title>FRIENDS Finder.</title>
   </head>
   <body>
       <img class="card-img" src="http://pixel.nymag.com/imgs/daily/vulture/2016/03/23/23-friends-cover-story-lede.w1200.h630.jpg" alt="Card image">
@@ -213,7 +214,7 @@
     <div class="modal-dialog">
         <div class="modal-content">
         <div class="modal-header">
-            <h4 class="lead">Your Compatable<a class="link" href="https://www.imdb.com/title/tt0108778/">F • R • I • E • N • D • S</a></strong></h4>
+            <h4 class="lead leader">Your Compatable  <a class="link" href="https://www.imdb.com/title/tt0108778/">F • R • I • E • N • D • S</a></strong></h4>
             <button type="button" class="close" data-dismiss="modal" aria-label="Close">
             <span aria-hidden="true">&times;</span>
             </button>
@@ -232,20 +233,20 @@
        $("#submitButton").on("click", function(event) {
             event.preventDefault();
             var userData = {
-                name: $("#name").val().trim(),
-                pic: $("#photo").val().trim(),
+                name: $("#name").val(),
+                pic: $("#photo").val(),
                 scores: [
-                    $("#q1").val().trim(),
-                    $("#q2").val().trim(),
-                    $("#q3").val().trim(),
-                    $("#q4").val().trim(),
-                    $("#q5").val().trim(),
-                    $("#q6").val().trim(),
-                    $("#q7").val().trim(),
-                    $("#q8").val().trim(),
-                    $("#q9").val().trim(),
-                    $("#q10").val().trim(),
-                    $("#q11").val().trim(),
+                    $("#q1").val(),
+                    $("#q2").val(),
+                    $("#q3").val(),
+                    $("#q4").val(),
+                    $("#q5").val(),
+                    $("#q6").val(),
+                    $("#q7").val(),
+                    $("#q8").val(),
+                    $("#q9").val(),
+                    $("#q10").val(),
+                    $("#q11").val(),
                 ]
             };
        

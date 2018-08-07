@@ -29,6 +29,15 @@ option {
     color: red;
 }
 
+.leader {
+    font-weight: bolder;
+    color: navy;
+    font-family: 'Fjord One', serif;
+}
+
+.modal-content {
+    background-color: lightskyblue;
+}
 .btn {
     background-color: red;
     font-family: 'Covered By Your Grace', cursive;
